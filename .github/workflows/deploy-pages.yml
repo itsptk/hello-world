@@ -1,5 +1,6 @@
 # Deploy static build to GitHub Pages (project site: https://itsptk.github.io/<repo>/).
-# One-time: Repo → Settings → Pages → Build and deployment → Source: GitHub Actions.
+# FIRST: Repo → Settings → Pages → Build and deployment → Source: GitHub Actions (required once).
+# We do not use actions/configure-pages here: it calls the Pages API and fails with 404 until the step above is done.
 # If the repository name is not the URL segment you want, set ASSET_PATH / BASE_PATH in the Build step.
 name: Deploy to GitHub Pages
 
@@ -23,8 +24,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
