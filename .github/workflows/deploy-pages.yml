@@ -29,8 +29,9 @@ jobs:
         with:
           node-version: lts/*
           cache: npm
+      # Use npm install (not npm ci) so this matches .github/workflows/ci.yaml and tolerates lockfile drift.
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund
       - name: Build
         env:
           # Must match repo name for https://<user>.github.io/<repo>/ (see github.event.repository.name)
