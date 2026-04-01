@@ -10,6 +10,7 @@ The setup process for PatternFly React applications involves several key steps i
 
 - [**Quick Start**](./quick-start.md) - Step-by-step project initialization
 - [**Development Environment**](./development-environment.md) - Environment configuration and tools
+- [**GitHub Pages (GitHub Actions)**](./github-pages-github-actions.md) - Deploy static builds with Actions (`upload-pages-artifact` / `deploy-pages`)
 - [**PatternFly Guidelines**](../guidelines/README.md) - Core development principles
 - [**Troubleshooting Setup Issues**](../troubleshooting/common-issues.md#setup-issues) - Common setup problems
 

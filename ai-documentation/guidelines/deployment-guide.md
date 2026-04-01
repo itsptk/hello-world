@@ -108,6 +108,8 @@ Netlify is another excellent platform for deploying static sites, with a very si
 
 If your project is already a GitHub repository, GitHub Pages is a convenient, free option, though it requires more setup than the other services.
 
+For a **GitHub Actions** workflow that builds on CI and deploys with `upload-pages-artifact` / `deploy-pages` (instead of the `gh-pages` branch below), see **[GitHub Pages (GitHub Actions)](../setup/github-pages-github-actions.md)**.
+
 1.  **Install the `gh-pages` package**:
     ```bash
     npm install --save-dev gh-pages

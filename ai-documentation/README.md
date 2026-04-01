@@ -11,6 +11,7 @@ Essential rules and guidelines for AI coders working with PatternFly React appli
 - [**Setup Rules**](./setup/README.md) - Project initialization requirements
 - [**Quick Start**](./setup/quick-start.md) - Essential setup steps
 - [**Environment Rules**](./setup/development-environment.md) - Development configuration
+- [**GitHub Pages (GitHub Actions)**](./setup/github-pages-github-actions.md) - Static deploy with Actions and common pitfalls
 
 ### 📚 Core Rules
 - [**PatternFly Guidelines**](./guidelines/README.md) - Core development principles
