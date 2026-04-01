@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import path from 'path';
+import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 import Dotenv from 'dotenv-webpack';
 const BG_IMAGES_DIRNAME = 'bgimages';
 const ASSET_PATH = process.env.ASSET_PATH || '/';
+/** Leading slash, no trailing slash — for React Router (GitHub project Pages). Empty when served from domain root. */
+const BASE_PATH = (process.env.BASE_PATH || '').replace(/\/$/, '');
 
 export default (env) => {
   return {
@@ -103,6 +106,9 @@ export default (env) => {
       publicPath: ASSET_PATH,
     },
     plugins: [
+      new webpack.DefinePlugin({
+        'process.env.BASE_PATH': JSON.stringify(BASE_PATH),
+      }),
       new HtmlWebpackPlugin({
         template: path.resolve('./src', 'index.html'),
       }),
