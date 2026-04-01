@@ -21,7 +21,9 @@ global.ResizeObserver = class ResizeObserver {
   observe = vi.fn();
   unobserve = vi.fn();
   disconnect = vi.fn();
-  constructor(callback: ResizeObserverCallback) {}
+  constructor(callback: ResizeObserverCallback) {
+    void callback;
+  }
 };
 
 // Mock IntersectionObserver
@@ -29,5 +31,8 @@ global.IntersectionObserver = class IntersectionObserver {
   observe = vi.fn();
   unobserve = vi.fn();
   disconnect = vi.fn();
-  constructor(callback: IntersectionObserverCallback, options?: IntersectionObserverInit) {}
+  constructor(callback: IntersectionObserverCallback, options?: IntersectionObserverInit) {
+    void callback;
+    void options;
+  }
 } as any;

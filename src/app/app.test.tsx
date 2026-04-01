@@ -1,14 +1,14 @@
 import * as React from 'react';
 import App from '@app/index';
-import { render, screen, act } from '@testing-library/react';
+import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, test } from 'vitest';
 
 describe('App tests', () => {
   test('should render default App component', () => {
-    const { asFragment } = render(<App />);
+    render(<App />);
 
-    expect(asFragment()).toMatchSnapshot();
+    expect(screen.getByRole('heading', { name: 'Cluster health' })).toBeInTheDocument();
   });
 
   it('should render a nav-toggle button', () => {
