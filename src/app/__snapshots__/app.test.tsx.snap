@@ -1,0 +1,1803 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App tests > should render default App component 1`] = `
+<DocumentFragment>
+  <div
+    class="pf-v6-c-page"
+  >
+    <div
+      class="pf-v6-c-skip-to-content"
+    >
+      <a
+        class="pf-v6-c-button pf-m-primary"
+        data-ouia-component-id="OUIA-Generated-Button-primary-1"
+        data-ouia-component-type="PF6/Button"
+        data-ouia-safe="true"
+        href="#primary-app-container"
+      >
+        <span
+          class="pf-v6-c-button__text"
+        >
+          Skip to Content
+        </span>
+      </a>
+    </div>
+    <header
+      class="pf-v6-c-masthead pf-m-display-inline-on-md"
+    >
+      <div
+        class="pf-v6-c-masthead__main"
+      >
+        <span
+          class="pf-v6-c-masthead__toggle"
+        >
+          <button
+            aria-label="Global navigation"
+            class="pf-v6-c-button pf-m-plain"
+            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+            data-ouia-component-type="PF6/Button"
+            data-ouia-safe="true"
+            type="button"
+          >
+            <span
+              class="pf-v6-c-button__icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="pf-v6-svg"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                viewBox="0 0 448 512"
+                width="1em"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                />
+              </svg>
+            </span>
+          </button>
+        </span>
+        <div
+          class="pf-v6-c-masthead__brand"
+          data-codemods="true"
+        >
+          <span
+            class="pf-v6-c-masthead__logo"
+            data-codemods="true"
+          >
+            <svg
+              height="40px"
+              viewBox="0 0 679 158"
+            >
+              <title>
+                PatternFly logo
+              </title>
+              <defs>
+                <lineargradient
+                  id="linearGradient-basic-masthead"
+                  x1="68%"
+                  x2="32%"
+                  y1="2.25860997e-13%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    stop-color="#2B9AF3"
+                  />
+                  <stop
+                    offset="100%"
+                    stop-color="#73BCF7"
+                    stop-opacity="0.502212631"
+                  />
+                </lineargradient>
+              </defs>
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke="none"
+                stroke-width="1"
+              >
+                <g
+                  fill="var(--pf-t--global--text--color--regular)"
+                  fill-rule="nonzero"
+                  transform="translate(206.000000, 45.750000)"
+                >
+                  <path
+                    d="M0,65.25 L0,2.25 L33.21,2.25 C37.35,2.25 41.025,3.135 44.235,4.905 C47.445,6.675 49.98,9.09 51.84,12.15 C53.7,15.21 54.63,18.72 54.63,22.68 C54.63,26.46 53.7,29.865 51.84,32.895 C49.98,35.925 47.43,38.31 44.19,40.05 C40.95,41.79 37.29,42.66 33.21,42.66 L15.48,42.66 L15.48,65.25 L0,65.25 Z M15.48,29.88 L31.41,29.88 C33.69,29.88 35.52,29.22 36.9,27.9 C38.28,26.58 38.97,24.87 38.97,22.77 C38.97,20.61 38.28,18.855 36.9,17.505 C35.52,16.155 33.69,15.48 31.41,15.48 L15.48,15.48 L15.48,29.88 Z"
+                  />
+                  <path
+                    d="M77.04,66.06 C73.68,66.06 70.695,65.43 68.085,64.17 C65.475,62.91 63.435,61.17 61.965,58.95 C60.495,56.73 59.76,54.18 59.76,51.3 C59.76,46.74 61.485,43.215 64.935,40.725 C68.385,38.235 73.2,36.99 79.38,36.99 C83.1,36.99 86.7,37.44 90.18,38.34 L90.18,36 C90.18,31.26 87.15,28.89 81.09,28.89 C77.49,28.89 72.69,30.15 66.69,32.67 L61.47,21.96 C69.15,18.48 76.56,16.74 83.7,16.74 C90.3,16.74 95.43,18.315 99.09,21.465 C102.75,24.615 104.58,29.04 104.58,34.74 L104.58,65.25 L90.18,65.25 L90.18,62.37 C88.26,63.69 86.235,64.635 84.105,65.205 C81.975,65.775 79.62,66.06 77.04,66.06 Z M73.62,51.03 C73.62,52.53 74.28,53.7 75.6,54.54 C76.92,55.38 78.75,55.8 81.09,55.8 C84.69,55.8 87.72,55.05 90.18,53.55 L90.18,47.43 C87.42,46.71 84.54,46.35 81.54,46.35 C79.02,46.35 77.07,46.755 75.69,47.565 C74.31,48.375 73.62,49.53 73.62,51.03 Z"
+                  />
+                  <path
+                    d="M137.25,65.88 C125.73,65.88 119.97,60.84 119.97,50.76 L119.97,29.79 L110.34,29.79 L110.34,17.64 L119.97,17.64 L119.97,5.4 L134.55,2.25 L134.55,17.64 L147.87,17.64 L147.87,29.79 L134.55,29.79 L134.55,47.88 C134.55,49.98 135.015,51.465 135.945,52.335 C136.875,53.205 138.51,53.64 140.85,53.64 C143.01,53.64 145.2,53.31 147.42,52.65 L147.42,64.44 C146.1,64.86 144.42,65.205 142.38,65.475 C140.34,65.745 138.63,65.88 137.25,65.88 Z"
+                  />
+                  <path
+                    d="M177.57,65.88 C166.05,65.88 160.29,60.84 160.29,50.76 L160.29,29.79 L150.66,29.79 L150.66,17.64 L160.29,17.64 L160.29,5.4 L174.87,2.25 L174.87,17.64 L188.19,17.64 L188.19,29.79 L174.87,29.79 L174.87,47.88 C174.87,49.98 175.335,51.465 176.265,52.335 C177.195,53.205 178.83,53.64 181.17,53.64 C183.33,53.64 185.52,53.31 187.74,52.65 L187.74,64.44 C186.42,64.86 184.74,65.205 182.7,65.475 C180.66,65.745 178.95,65.88 177.57,65.88 Z"
+                  />
+                  <path
+                    d="M217.62,66.15 C212.76,66.15 208.365,65.055 204.435,62.865 C200.505,60.675 197.4,57.72 195.12,54 C192.84,50.28 191.7,46.11 191.7,41.49 C191.7,36.87 192.795,32.7 194.985,28.98 C197.175,25.26 200.16,22.305 203.94,20.115 C207.72,17.925 211.92,16.83 216.54,16.83 C221.22,16.83 225.36,17.955 228.96,20.205 C232.56,22.455 235.395,25.53 237.465,29.43 C239.535,33.33 240.57,37.8 240.57,42.84 L240.57,46.44 L206.64,46.44 C207.6,48.66 209.1,50.475 211.14,51.885 C213.18,53.295 215.58,54 218.34,54 C222.42,54 225.6,52.8 227.88,50.4 L237.51,58.95 C234.51,61.47 231.435,63.3 228.285,64.44 C225.135,65.58 221.58,66.15 217.62,66.15 Z M206.37,36.27 L226.26,36.27 C225.48,33.99 224.205,32.16 222.435,30.78 C220.665,29.4 218.61,28.71 216.27,28.71 C213.87,28.71 211.8,29.37 210.06,30.69 C208.32,32.01 207.09,33.87 206.37,36.27 Z"
+                  />
+                  <path
+                    d="M247.41,65.25 L247.41,17.64 L261.99,17.64 L261.99,22.41 C265.23,18.51 269.4,16.56 274.5,16.56 C277.08,16.62 278.91,17.01 279.99,17.73 L279.99,30.42 C277.95,29.46 275.64,28.98 273.06,28.98 C270.78,28.98 268.665,29.505 266.715,30.555 C264.765,31.605 263.19,33.09 261.99,35.01 L261.99,65.25 L247.41,65.25 Z"
+                  />
+                  <path
+                    d="M286.29,65.25 L286.29,17.64 L300.87,17.64 L300.87,20.88 C304.47,18.12 308.73,16.74 313.65,16.74 C317.37,16.74 320.655,17.55 323.505,19.17 C326.355,20.79 328.59,23.04 330.21,25.92 C331.83,28.8 332.64,32.13 332.64,35.91 L332.64,65.25 L318.06,65.25 L318.06,37.89 C318.06,35.25 317.28,33.15 315.72,31.59 C314.16,30.03 312.06,29.25 309.42,29.25 C305.76,29.25 302.91,30.51 300.87,33.03 L300.87,65.25 L286.29,65.25 Z"
+                  />
+                  <polygon
+                    points="342 65.25 342 2.25 392.04 2.25 392.04 15.66 357.48 15.66 357.48 27.45 380.52 27.45 380.52 40.41 357.48 40.41 357.48 65.25"
+                  />
+                  <polygon
+                    points="399.96 65.25 399.96 2.25 414.54 0 414.54 65.25"
+                  />
+                  <path
+                    d="M429.21,84.69 C428.07,84.69 426.96,84.645 425.88,84.555 C424.8,84.465 423.9,84.33 423.18,84.15 L423.18,71.73 C424.38,71.97 425.88,72.09 427.68,72.09 C432.36,72.09 435.51,70.05 437.13,65.97 L437.13,65.88 L418.86,17.64 L434.97,17.64 L445.5,47.61 L457.74,17.64 L473.49,17.64 L452.16,67.68 C450.42,71.82 448.5,75.135 446.4,77.625 C444.3,80.115 441.87,81.915 439.11,83.025 C436.35,84.135 433.05,84.69 429.21,84.69 Z"
+                  />
+                </g>
+                <g
+                  transform="translate(0.000000, 0.000000)"
+                >
+                  <path
+                    d="M61.826087,0 L158,0 L158,96.173913 L147.695652,96.173913 C100.271201,96.173913 61.826087,57.7287992 61.826087,10.3043478 L61.826087,0 L61.826087,0 Z"
+                    fill="#0066CC"
+                  />
+                  <path
+                    d="M158,3.43478261 L65.2608696,158 L138,158 C149.045695,158 158,149.045695 158,138 L158,3.43478261 L158,3.43478261 Z"
+                    fill="url(#linearGradient-basic-masthead)"
+                  />
+                  <path
+                    d="M123.652174,-30.9130435 L30.9130435,123.652174 L103.652174,123.652174 C114.697869,123.652174 123.652174,114.697869 123.652174,103.652174 L123.652174,-30.9130435 L123.652174,-30.9130435 Z"
+                    fill="url(#linearGradient-basic-masthead)"
+                    transform="translate(77.282609, 46.369565) scale(1, -1) rotate(90.000000) translate(-77.282609, -46.369565) "
+                  />
+                </g>
+              </g>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </header>
+    <div
+      aria-hidden="false"
+      class="pf-v6-c-page__sidebar pf-m-expanded"
+      id="page-sidebar"
+    >
+      <div
+        class="pf-v6-c-page__sidebar-body"
+      >
+        <nav
+          aria-label="Global"
+          class="pf-v6-c-nav"
+          data-ouia-component-id="OUIA-Generated-Nav-1"
+          data-ouia-component-type="PF6/Nav"
+          data-ouia-safe="true"
+          id="nav-primary-simple"
+        >
+          <ul
+            class="pf-v6-c-nav__list"
+            id="nav-list-simple"
+            role="list"
+          >
+            <li
+              class="pf-v6-c-nav__item"
+              data-ouia-component-id="OUIA-Generated-NavItem-1"
+              data-ouia-component-type="PF6/NavItem"
+              data-ouia-safe="true"
+            >
+              <a
+                aria-current="page"
+                class="pf-v6-c-nav__link pf-m-current active"
+                data-discover="true"
+                href="/"
+              >
+                Dashboard
+              </a>
+            </li>
+            <li
+              class="pf-v6-c-nav__item"
+              data-ouia-component-id="OUIA-Generated-NavItem-2"
+              data-ouia-component-type="PF6/NavItem"
+              data-ouia-safe="true"
+            >
+              <a
+                class="pf-v6-c-nav__link"
+                data-discover="true"
+                href="/support"
+              >
+                Support
+              </a>
+            </li>
+            <li
+              class="pf-v6-c-nav__item"
+              data-ouia-component-id="OUIA-Generated-NavExpandable-1"
+              data-ouia-component-type="PF6/NavExpandable"
+              data-ouia-safe="true"
+            >
+              <button
+                aria-expanded="false"
+                class="pf-v6-c-nav__link"
+                id="Settings-2"
+              >
+                Settings
+                <span
+                  class="pf-v6-c-nav__toggle"
+                >
+                  <span
+                    class="pf-v6-c-nav__toggle-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="pf-v6-svg"
+                      fill="currentColor"
+                      height="1em"
+                      role="img"
+                      viewBox="0 0 256 512"
+                      width="1em"
+                    >
+                      <path
+                        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <section
+                aria-labelledby="Settings-2"
+                class="pf-v6-c-nav__subnav"
+                hidden=""
+                inert=""
+              >
+                <ul
+                  class="pf-v6-c-nav__list"
+                  role="list"
+                >
+                  <li
+                    class="pf-v6-c-nav__item"
+                    data-ouia-component-id="OUIA-Generated-NavItem-3"
+                    data-ouia-component-type="PF6/NavItem"
+                    data-ouia-safe="true"
+                  >
+                    <a
+                      class="pf-v6-c-nav__link"
+                      data-discover="true"
+                      href="/settings/general"
+                    >
+                      General
+                    </a>
+                  </li>
+                  <li
+                    class="pf-v6-c-nav__item"
+                    data-ouia-component-id="OUIA-Generated-NavItem-4"
+                    data-ouia-component-type="PF6/NavItem"
+                    data-ouia-safe="true"
+                  >
+                    <a
+                      class="pf-v6-c-nav__link"
+                      data-discover="true"
+                      href="/settings/profile"
+                    >
+                      Profile
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="pf-v6-c-page__main-container"
+    >
+      <main
+        class="pf-v6-c-page__main"
+        id="primary-app-container"
+        tabindex="-1"
+      >
+        <section
+          class="pf-v6-c-page__main-section pf-m-secondary"
+        >
+          <div
+            class="pf-v6-c-page__main-body"
+          >
+            <div
+              class="pf-v6-c-content"
+              data-ouia-component-id="OUIA-Generated-Content-1"
+              data-ouia-component-type="PF6/Content"
+              data-ouia-safe="true"
+              data-pf-content="true"
+            >
+              <h1
+                class="pf-v6-c-title pf-m-2xl"
+                data-ouia-component-id="OUIA-Generated-Title-1"
+                data-ouia-component-type="PF6/Title"
+                data-ouia-safe="true"
+              >
+                Cluster health
+              </h1>
+              <p>
+                One place to visualize fleet status, spot problems, drill into clusters and components, and jump into troubleshooting workflows.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section
+          class="pf-v6-c-page__main-section"
+        >
+          <div
+            class="pf-v6-c-page__main-body"
+          >
+            <div
+              class="pf-v6-l-stack pf-m-gutter"
+            >
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <h2
+                  class="pf-v6-c-title pf-m-xl"
+                  data-ouia-component-id="OUIA-Generated-Title-2"
+                  data-ouia-component-type="PF6/Title"
+                  data-ouia-safe="true"
+                >
+                  Visualize
+                </h2>
+                <p
+                  class="pf-v6-u-color-text-subtle"
+                >
+                  Key metrics across all clusters
+                </p>
+              </div>
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <div
+                  class="pf-v6-l-gallery pf-m-gutter"
+                  style="--pf-v6-l-gallery--GridTemplateColumns--min: 280px;"
+                >
+                  <div
+                    class="pf-v6-c-card"
+                    data-ouia-component-id="OUIA-Generated-Card-1"
+                    data-ouia-component-type="PF6/Card"
+                    data-ouia-safe="true"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-card__header"
+                    >
+                      <div
+                        class="pf-v6-c-card__header-main"
+                      >
+                        <div
+                          class="pf-v6-c-card__title"
+                        >
+                          <div
+                            class="pf-v6-c-card__title-text"
+                          >
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="pf-v6-c-card__body"
+                    >
+                      <div
+                        class="pf-v6-l-flex pf-m-align-items-center pf-m-justify-content-space-between"
+                      >
+                        <div
+                          class=""
+                        >
+                          <h3
+                            class="pf-v6-c-title pf-m-4xl"
+                            data-ouia-component-id="OUIA-Generated-Title-3"
+                            data-ouia-component-type="PF6/Title"
+                            data-ouia-safe="true"
+                          >
+                            4
+                          </h3>
+                        </div>
+                        <div
+                          class=""
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="pf-v6-svg"
+                            fill="currentColor"
+                            height="1em"
+                            role="img"
+                            style="font-size: 2rem; opacity: 0.6;"
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                          >
+                            <path
+                              d="M1013.1,330.877049 C1005.8,323.577049 997.2,319.977049 987.4,319.977049 L36.6,319.977049 C26.6,319.977049 18.2,323.577049 10.9,330.877049 C3.6,338.177049 0,346.777049 0,356.577049 L0,475.277049 C0,485.277049 3.6,493.677049 10.7,501.077049 C18,508.377049 26.4,511.977049 36.4,511.977049 L987.4,511.977049 C997.4,511.977049 1005.8,508.377049 1013.1,501.077049 C1020.4,493.777049 1024,485.377049 1024,475.377049 L1024,356.577049 C1024,346.577049 1020.4,338.177049 1013.1,330.877049 Z M128,447.977049 L64,447.977049 L64,383.977049 L128,383.977049 L128,447.977049 Z M256,447.977049 L192,447.977049 L192,383.977049 L256,383.977049 L256,447.977049 Z M384,447.977049 L320,447.977049 L320,383.977049 L384,383.977049 L384,447.977049 Z M512,447.977049 L448,447.977049 L448,383.977049 L512,383.977049 L512,447.977049 Z M960,447.977049 L896,447.977049 L896,383.977049 L960,383.977049 L960,447.977049 Z M0,245.177049 C0,235.977049 1.2,234.677049 9.6,226.477049 C9.6,226.477049 151.09,86.2970491 161.6,74.0070491 C172.11,61.7170491 185.5,64.2070491 185.5,64.2070491 L840.62,64.2070491 C840.62,64.2070491 852.42,62.8070491 863.11,74.4070491 C873.61,85.9970491 1013.5,226.407049 1013.5,226.407049 C1021.9,234.807049 1024,236.107049 1024,245.207049 C1024,254.807049 1012.3,256.007049 1000.7,256.007049 L22.1,256.007049 C10.8,256.077049 0,254.377049 0,245.177049 Z M1013.1,842.877049 C1005.8,835.577049 997.2,831.977049 987.4,831.977049 L36.6,831.977049 C26.6,831.977049 18.2,835.577049 10.9,842.877049 C3.6,850.177049 0,858.777049 0,868.577049 L0,987.277049 C0,997.277049 3.6,1005.67705 10.7,1013.07705 C18,1020.37705 26.4,1023.97705 36.4,1023.97705 L987.4,1023.97705 C997.4,1023.97705 1005.8,1020.37705 1013.1,1013.07705 C1020.4,1005.77705 1024,997.377049 1024,987.377049 L1024,868.577049 C1024,858.577049 1020.4,850.177049 1013.1,842.877049 Z M128,959.977049 L64,959.977049 L64,895.977049 L128,895.977049 L128,959.977049 Z M256,959.977049 L192,959.977049 L192,895.977049 L256,895.977049 L256,959.977049 Z M384,959.977049 L320,959.977049 L320,895.977049 L384,895.977049 L384,959.977049 Z M512,959.977049 L448,959.977049 L448,895.977049 L512,895.977049 L512,959.977049 Z M960,959.977049 L896,959.977049 L896,895.977049 L960,895.977049 L960,959.977049 Z M1013.1,586.877049 C1005.8,579.577049 997.2,575.977049 987.4,575.977049 L36.6,575.977049 C26.6,575.977049 18.2,579.577049 10.9,586.877049 C3.6,594.177049 0,602.777049 0,612.577049 L0,731.277049 C0,741.277049 3.6,749.677049 10.7,757.077049 C18,764.377049 26.4,767.977049 36.4,767.977049 L987.4,767.977049 C997.4,767.977049 1005.8,764.377049 1013.1,757.077049 C1020.4,749.777049 1024,741.377049 1024,731.377049 L1024,612.577049 C1024,602.577049 1020.4,594.177049 1013.1,586.877049 Z M128,703.977049 L64,703.977049 L64,639.977049 L128,639.977049 L128,703.977049 Z M256,703.977049 L192,703.977049 L192,639.977049 L256,639.977049 L256,703.977049 Z M384,703.977049 L320,703.977049 L320,639.977049 L384,639.977049 L384,703.977049 Z M512,703.977049 L448,703.977049 L448,639.977049 L512,639.977049 L512,703.977049 Z M960,703.977049 L896,703.977049 L896,639.977049 L960,639.977049 L960,703.977049 Z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div
+                        class="pf-v6-c-label-group pf-m-category"
+                      >
+                        <div
+                          class="pf-v6-c-label-group__main"
+                        >
+                          <span
+                            aria-hidden="true"
+                            class="pf-v6-c-label-group__label"
+                            id="pf-random-id-1"
+                          >
+                            Status
+                          </span>
+                          <ul
+                            aria-labelledby="pf-random-id-1"
+                            class="pf-v6-c-label-group__list"
+                            role="list"
+                          >
+                            <li
+                              class="pf-v6-c-label-group__list-item"
+                            >
+                              <span
+                                class="pf-v6-c-label pf-m-green pf-m-filled pf-m-compact"
+                              >
+                                <span
+                                  class="pf-v6-c-label__content"
+                                >
+                                  <span
+                                    class="pf-v6-c-label__text"
+                                  >
+                                    2 healthy
+                                  </span>
+                                </span>
+                              </span>
+                            </li>
+                            <li
+                              class="pf-v6-c-label-group__list-item"
+                            >
+                              <span
+                                class="pf-v6-c-label pf-m-orange pf-m-filled pf-m-compact"
+                              >
+                                <span
+                                  class="pf-v6-c-label__content"
+                                >
+                                  <span
+                                    class="pf-v6-c-label__text"
+                                  >
+                                    1 degraded
+                                  </span>
+                                </span>
+                              </span>
+                            </li>
+                            <li
+                              class="pf-v6-c-label-group__list-item"
+                            >
+                              <span
+                                class="pf-v6-c-label pf-m-red pf-m-filled pf-m-compact"
+                              >
+                                <span
+                                  class="pf-v6-c-label__content"
+                                >
+                                  <span
+                                    class="pf-v6-c-label__text"
+                                  >
+                                    1 critical
+                                  </span>
+                                </span>
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pf-v6-c-card"
+                    data-ouia-component-id="OUIA-Generated-Card-2"
+                    data-ouia-component-type="PF6/Card"
+                    data-ouia-safe="true"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-card__header"
+                    >
+                      <div
+                        class="pf-v6-c-card__header-main"
+                      >
+                        <div
+                          class="pf-v6-c-card__title"
+                        >
+                          <div
+                            class="pf-v6-c-card__title-text"
+                          >
+                            Fleet CPU (avg)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="pf-v6-c-card__body"
+                    >
+                      <div
+                        class="pf-v6-c-progress pf-m-outside"
+                        id="pf-17750642424392y7ry3gbui8"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="pf-v6-c-progress__description"
+                          id="pf-17750642424392y7ry3gbui8-description"
+                        >
+                          70%
+                        </div>
+                        <div
+                          aria-hidden="true"
+                          class="pf-v6-c-progress__status"
+                        >
+                          <span
+                            class="pf-v6-c-progress__measure"
+                          >
+                            70%
+                          </span>
+                        </div>
+                        <div
+                          aria-labelledby="pf-17750642424392y7ry3gbui8-description"
+                          aria-valuemax="100"
+                          aria-valuemin="0"
+                          aria-valuenow="70"
+                          class="pf-v6-c-progress__bar"
+                          role="progressbar"
+                        >
+                          <div
+                            class="pf-v6-c-progress__indicator"
+                            style="width: 70%;"
+                          >
+                            <span
+                              class="pf-v6-c-progress__measure"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pf-v6-c-card"
+                    data-ouia-component-id="OUIA-Generated-Card-3"
+                    data-ouia-component-type="PF6/Card"
+                    data-ouia-safe="true"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-card__header"
+                    >
+                      <div
+                        class="pf-v6-c-card__header-main"
+                      >
+                        <div
+                          class="pf-v6-c-card__title"
+                        >
+                          <div
+                            class="pf-v6-c-card__title-text"
+                          >
+                            Fleet memory (avg)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="pf-v6-c-card__body"
+                    >
+                      <div
+                        class="pf-v6-c-progress pf-m-outside"
+                        id="pf-1775064242440lla60vwjz"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="pf-v6-c-progress__description"
+                          id="pf-1775064242440lla60vwjz-description"
+                        >
+                          76%
+                        </div>
+                        <div
+                          aria-hidden="true"
+                          class="pf-v6-c-progress__status"
+                        >
+                          <span
+                            class="pf-v6-c-progress__measure"
+                          >
+                            76%
+                          </span>
+                        </div>
+                        <div
+                          aria-labelledby="pf-1775064242440lla60vwjz-description"
+                          aria-valuemax="100"
+                          aria-valuemin="0"
+                          aria-valuenow="76"
+                          class="pf-v6-c-progress__bar"
+                          role="progressbar"
+                        >
+                          <div
+                            class="pf-v6-c-progress__indicator"
+                            style="width: 76%;"
+                          >
+                            <span
+                              class="pf-v6-c-progress__measure"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pf-v6-c-card"
+                    data-ouia-component-id="OUIA-Generated-Card-4"
+                    data-ouia-component-type="PF6/Card"
+                    data-ouia-safe="true"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-card__header"
+                    >
+                      <div
+                        class="pf-v6-c-card__header-main"
+                      >
+                        <div
+                          class="pf-v6-c-card__title"
+                        >
+                          <div
+                            class="pf-v6-c-card__title-text"
+                          >
+                            OpenShift / Kubernetes
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="pf-v6-c-card__body"
+                    >
+                      <div
+                        class="pf-v6-c-content"
+                        data-ouia-component-id="OUIA-Generated-Content-2"
+                        data-ouia-component-type="PF6/Content"
+                        data-ouia-safe="true"
+                        data-pf-content="true"
+                      >
+                        <p
+                          class="pf-v6-u-font-size-sm pf-v6-u-mb-md"
+                        >
+                          Version spread across fleet
+                        </p>
+                        <div
+                          class="pf-v6-c-label-group"
+                        >
+                          <div
+                            class="pf-v6-c-label-group__main"
+                          >
+                            <ul
+                              aria-label="Label group category"
+                              class="pf-v6-c-label-group__list"
+                              role="list"
+                            >
+                              <li
+                                class="pf-v6-c-label-group__list-item"
+                              >
+                                <span
+                                  class="pf-v6-c-label pf-m-blue pf-m-filled pf-m-compact"
+                                >
+                                  <span
+                                    class="pf-v6-c-label__content"
+                                  >
+                                    <span
+                                      class="pf-v6-c-label__text"
+                                    >
+                                      4.18.x — 3
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                              <li
+                                class="pf-v6-c-label-group__list-item"
+                              >
+                                <span
+                                  class="pf-v6-c-label pf-m-purple pf-m-filled pf-m-compact"
+                                >
+                                  <span
+                                    class="pf-v6-c-label__content"
+                                  >
+                                    <span
+                                      class="pf-v6-c-label__text"
+                                    >
+                                      4.17.x — 1
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="pf-v6-c-page__main-section"
+        >
+          <div
+            class="pf-v6-c-page__main-body"
+          >
+            <div
+              class="pf-v6-l-stack pf-m-gutter"
+            >
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <h2
+                  class="pf-v6-c-title pf-m-xl"
+                  data-ouia-component-id="OUIA-Generated-Title-4"
+                  data-ouia-component-type="PF6/Title"
+                  data-ouia-safe="true"
+                >
+                  Identify
+                </h2>
+                <p
+                  class="pf-v6-u-color-text-subtle"
+                >
+                  Priority issues and anomalies ranked across the fleet
+                </p>
+              </div>
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <ul
+                  class="pf-v6-c-alert-group"
+                  role="list"
+                >
+                  <li
+                    class="pf-v6-c-alert-group__item"
+                  >
+                    <div
+                      class="pf-v6-c-alert pf-m-inline pf-m-danger"
+                      data-ouia-component-id="OUIA-Generated-Alert-danger-1"
+                      data-ouia-component-type="PF6/Alert"
+                      data-ouia-safe="true"
+                    >
+                      <div
+                        class="pf-v6-c-alert__icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="pf-v6-svg"
+                          fill="currentColor"
+                          height="1em"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                          />
+                        </svg>
+                      </div>
+                      <h4
+                        class="pf-v6-c-alert__title"
+                      >
+                        <span
+                          class="pf-v6-screen-reader"
+                        >
+                          Danger alert:
+                        </span>
+                        Node NotReady surge in dr-ap-southeast-1
+                      </h4>
+                      <div
+                        class="pf-v6-c-alert__description"
+                      >
+                        4 nodes reported NotReady in the last 30 minutes. Storage CSI errors correlated.
+                        <span
+                          class="pf-v6-u-display-block pf-v6-u-font-size-sm pf-v6-u-mt-sm pf-v6-u-color-text-subtle"
+                        >
+                          12 min ago
+                        </span>
+                      </div>
+                      <div
+                        class="pf-v6-c-alert__action-group"
+                      >
+                        <button
+                          class="pf-v6-c-button pf-m-link pf-m-inline"
+                          data-ouia-component-id="OUIA-Generated-Button-link-1"
+                          data-ouia-component-type="PF6/Button"
+                          data-ouia-safe="true"
+                          type="button"
+                        >
+                          <span
+                            class="pf-v6-c-button__text"
+                          >
+                            View cluster
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-alert-group__item"
+                  >
+                    <div
+                      class="pf-v6-c-alert pf-m-inline pf-m-warning"
+                      data-ouia-component-id="OUIA-Generated-Alert-warning-1"
+                      data-ouia-component-type="PF6/Alert"
+                      data-ouia-safe="true"
+                    >
+                      <div
+                        class="pf-v6-c-alert__icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="pf-v6-svg"
+                          fill="currentColor"
+                          height="1em"
+                          role="img"
+                          viewBox="0 0 576 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                          />
+                        </svg>
+                      </div>
+                      <h4
+                        class="pf-v6-c-alert__title"
+                      >
+                        <span
+                          class="pf-v6-screen-reader"
+                        >
+                          Warning alert:
+                        </span>
+                        etcd latency SLO breach
+                      </h4>
+                      <div
+                        class="pf-v6-c-alert__description"
+                      >
+                        prod-us-west-2: etcd p99 write latency elevated. Investigate disk and leader elections.
+                        <span
+                          class="pf-v6-u-display-block pf-v6-u-font-size-sm pf-v6-u-mt-sm pf-v6-u-color-text-subtle"
+                        >
+                          28 min ago
+                        </span>
+                      </div>
+                      <div
+                        class="pf-v6-c-alert__action-group"
+                      >
+                        <button
+                          class="pf-v6-c-button pf-m-link pf-m-inline"
+                          data-ouia-component-id="OUIA-Generated-Button-link-2"
+                          data-ouia-component-type="PF6/Button"
+                          data-ouia-safe="true"
+                          type="button"
+                        >
+                          <span
+                            class="pf-v6-c-button__text"
+                          >
+                            View cluster
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-alert-group__item"
+                  >
+                    <div
+                      class="pf-v6-c-alert pf-m-inline pf-m-warning"
+                      data-ouia-component-id="OUIA-Generated-Alert-warning-2"
+                      data-ouia-component-type="PF6/Alert"
+                      data-ouia-safe="true"
+                    >
+                      <div
+                        class="pf-v6-c-alert__icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="pf-v6-svg"
+                          fill="currentColor"
+                          height="1em"
+                          role="img"
+                          viewBox="0 0 576 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                          />
+                        </svg>
+                      </div>
+                      <h4
+                        class="pf-v6-c-alert__title"
+                      >
+                        <span
+                          class="pf-v6-screen-reader"
+                        >
+                          Warning alert:
+                        </span>
+                        Pod restart anomaly
+                      </h4>
+                      <div
+                        class="pf-v6-c-alert__description"
+                      >
+                        prod-us-west-2: restart count 3σ above 7-day baseline for namespace openshift-monitoring.
+                        <span
+                          class="pf-v6-u-display-block pf-v6-u-font-size-sm pf-v6-u-mt-sm pf-v6-u-color-text-subtle"
+                        >
+                          1 hr ago
+                        </span>
+                      </div>
+                      <div
+                        class="pf-v6-c-alert__action-group"
+                      >
+                        <button
+                          class="pf-v6-c-button pf-m-link pf-m-inline"
+                          data-ouia-component-id="OUIA-Generated-Button-link-3"
+                          data-ouia-component-type="PF6/Button"
+                          data-ouia-safe="true"
+                          type="button"
+                        >
+                          <span
+                            class="pf-v6-c-button__text"
+                          >
+                            View cluster
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-alert-group__item"
+                  >
+                    <div
+                      class="pf-v6-c-alert pf-m-inline pf-m-info"
+                      data-ouia-component-id="OUIA-Generated-Alert-info-1"
+                      data-ouia-component-type="PF6/Alert"
+                      data-ouia-safe="true"
+                    >
+                      <div
+                        class="pf-v6-c-alert__icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="pf-v6-svg"
+                          fill="currentColor"
+                          height="1em"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                        >
+                          <path
+                            d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                          />
+                        </svg>
+                      </div>
+                      <h4
+                        class="pf-v6-c-alert__title"
+                      >
+                        <span
+                          class="pf-v6-screen-reader"
+                        >
+                          Info alert:
+                        </span>
+                        Upgrade available
+                      </h4>
+                      <div
+                        class="pf-v6-c-alert__description"
+                      >
+                        staging-eu-central-1 can patch to 4.18.3 (security advisory RHSA-2026:0000).
+                        <span
+                          class="pf-v6-u-display-block pf-v6-u-font-size-sm pf-v6-u-mt-sm pf-v6-u-color-text-subtle"
+                        >
+                          3 hr ago
+                        </span>
+                      </div>
+                      <div
+                        class="pf-v6-c-alert__action-group"
+                      >
+                        <button
+                          class="pf-v6-c-button pf-m-link pf-m-inline"
+                          data-ouia-component-id="OUIA-Generated-Button-link-4"
+                          data-ouia-component-type="PF6/Button"
+                          data-ouia-safe="true"
+                          type="button"
+                        >
+                          <span
+                            class="pf-v6-c-button__text"
+                          >
+                            View cluster
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="pf-v6-c-page__main-section"
+        >
+          <div
+            class="pf-v6-c-page__main-body"
+          >
+            <div
+              class="pf-v6-l-stack pf-m-gutter"
+            >
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <div
+                  class="pf-v6-l-split pf-m-gutter"
+                >
+                  <div
+                    class="pf-v6-l-split__item pf-m-fill"
+                  >
+                    <h2
+                      class="pf-v6-c-title pf-m-xl"
+                      data-ouia-component-id="OUIA-Generated-Title-5"
+                      data-ouia-component-type="PF6/Title"
+                      data-ouia-safe="true"
+                    >
+                      Isolate
+                    </h2>
+                    <p
+                      class="pf-v6-u-color-text-subtle"
+                    >
+                      Select a cluster to drill into components and logs
+                    </p>
+                  </div>
+                  <div
+                    class="pf-v6-l-split__item"
+                  >
+                    <div
+                      class="pf-v6-c-toolbar"
+                      data-ouia-component-id="fleet-toolbar"
+                      data-ouia-component-type="PF6/Toolbar"
+                      data-ouia-safe="true"
+                      id="fleet-toolbar"
+                    >
+                      <div
+                        class="pf-v6-c-toolbar__content"
+                      >
+                        <div
+                          class="pf-v6-c-toolbar__content-section"
+                        >
+                          <div
+                            class="pf-v6-c-toolbar__group pf-m-filter-group"
+                          >
+                            <div
+                              class="pf-v6-c-toolbar__item"
+                            >
+                              <button
+                                aria-label="Filter clusters (prototype)"
+                                class="pf-v6-c-button pf-m-control"
+                                data-ouia-component-id="OUIA-Generated-Button-control-1"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__icon pf-m-start"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="pf-v6-svg"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    viewBox="0 0 512 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  Filter
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="pf-v6-c-toolbar__content pf-m-hidden"
+                        hidden=""
+                      >
+                        <div
+                          class="pf-v6-c-toolbar__group"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <ul
+                  aria-label="Clusters"
+                  class="pf-v6-c-data-list pf-m-compact pf-m-grid-md"
+                  role="list"
+                >
+                  <li
+                    class="pf-v6-c-data-list__item"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-data-list__item-row"
+                    >
+                      <div
+                        class="pf-v6-c-data-list__item-content"
+                      >
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-flex-2"
+                          id="cluster-c-prod-east"
+                        >
+                          <div
+                            class="pf-v6-l-stack"
+                          >
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <button
+                                class="pf-v6-c-button pf-m-link pf-m-inline"
+                                data-ouia-component-id="OUIA-Generated-Button-link-5"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  prod-us-east-1
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <span
+                                class="pf-v6-u-font-size-sm pf-v6-u-color-text-subtle"
+                              >
+                                US East (N. Virginia)
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-c-label pf-m-green pf-m-filled pf-m-compact"
+                          >
+                            <span
+                              class="pf-v6-c-label__content"
+                            >
+                              <span
+                                class="pf-v6-c-label__icon"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="pf-v6-svg"
+                                  fill="currentColor"
+                                  height="1em"
+                                  role="img"
+                                  viewBox="0 0 512 512"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="pf-v6-c-label__text"
+                              >
+                                Healthy
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Nodes 12/12
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            CPU 62% · Mem 71%
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-align-right"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Restarts (24h): 3
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-data-list__item"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-data-list__item-row"
+                    >
+                      <div
+                        class="pf-v6-c-data-list__item-content"
+                      >
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-flex-2"
+                          id="cluster-c-prod-west"
+                        >
+                          <div
+                            class="pf-v6-l-stack"
+                          >
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <button
+                                class="pf-v6-c-button pf-m-link pf-m-inline"
+                                data-ouia-component-id="OUIA-Generated-Button-link-6"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  prod-us-west-2
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <span
+                                class="pf-v6-u-font-size-sm pf-v6-u-color-text-subtle"
+                              >
+                                US West (Oregon)
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-c-label pf-m-orange pf-m-filled pf-m-compact"
+                          >
+                            <span
+                              class="pf-v6-c-label__content"
+                            >
+                              <span
+                                class="pf-v6-c-label__icon"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="pf-v6-svg"
+                                  fill="currentColor"
+                                  height="1em"
+                                  role="img"
+                                  viewBox="0 0 576 512"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="pf-v6-c-label__text"
+                              >
+                                Degraded
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Nodes 9/10
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            CPU 84% · Mem 88%
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-align-right"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Restarts (24h): 47
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-data-list__item"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-data-list__item-row"
+                    >
+                      <div
+                        class="pf-v6-c-data-list__item-content"
+                      >
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-flex-2"
+                          id="cluster-c-staging"
+                        >
+                          <div
+                            class="pf-v6-l-stack"
+                          >
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <button
+                                class="pf-v6-c-button pf-m-link pf-m-inline"
+                                data-ouia-component-id="OUIA-Generated-Button-link-7"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  staging-eu-central-1
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <span
+                                class="pf-v6-u-font-size-sm pf-v6-u-color-text-subtle"
+                              >
+                                EU (Frankfurt)
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-c-label pf-m-green pf-m-filled pf-m-compact"
+                          >
+                            <span
+                              class="pf-v6-c-label__content"
+                            >
+                              <span
+                                class="pf-v6-c-label__icon"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="pf-v6-svg"
+                                  fill="currentColor"
+                                  height="1em"
+                                  role="img"
+                                  viewBox="0 0 512 512"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="pf-v6-c-label__text"
+                              >
+                                Healthy
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Nodes 6/6
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            CPU 41% · Mem 55%
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-align-right"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Restarts (24h): 1
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pf-v6-c-data-list__item"
+                    id=""
+                  >
+                    <div
+                      class="pf-v6-c-data-list__item-row"
+                    >
+                      <div
+                        class="pf-v6-c-data-list__item-content"
+                      >
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-flex-2"
+                          id="cluster-c-dr"
+                        >
+                          <div
+                            class="pf-v6-l-stack"
+                          >
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <button
+                                class="pf-v6-c-button pf-m-link pf-m-inline"
+                                data-ouia-component-id="OUIA-Generated-Button-link-8"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  dr-ap-southeast-1
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="pf-v6-l-stack__item"
+                            >
+                              <span
+                                class="pf-v6-u-font-size-sm pf-v6-u-color-text-subtle"
+                              >
+                                Asia Pacific (Singapore)
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-c-label pf-m-red pf-m-filled pf-m-compact"
+                          >
+                            <span
+                              class="pf-v6-c-label__content"
+                            >
+                              <span
+                                class="pf-v6-c-label__icon"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="pf-v6-svg"
+                                  fill="currentColor"
+                                  height="1em"
+                                  role="img"
+                                  viewBox="0 0 512 512"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="pf-v6-c-label__text"
+                              >
+                                Critical
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Nodes 4/8
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            CPU 93% · Mem 91%
+                          </span>
+                        </div>
+                        <div
+                          class="pf-v6-c-data-list__cell pf-m-align-right"
+                        >
+                          <span
+                            class="pf-v6-u-font-size-sm"
+                          >
+                            Restarts (24h): 312
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="pf-v6-c-page__main-section pf-m-secondary"
+        >
+          <div
+            class="pf-v6-c-page__main-body"
+          >
+            <div
+              class="pf-v6-l-stack pf-m-gutter"
+            >
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <h2
+                  class="pf-v6-c-title pf-m-xl"
+                  data-ouia-component-id="OUIA-Generated-Title-6"
+                  data-ouia-component-type="PF6/Title"
+                  data-ouia-safe="true"
+                >
+                  Troubleshoot
+                </h2>
+                <p
+                  class="pf-v6-u-color-text-subtle"
+                >
+                  Common workflows (prototype actions)
+                </p>
+              </div>
+              <div
+                class="pf-v6-l-stack__item"
+              >
+                <div
+                  class="pf-v6-c-card pf-m-compact"
+                  data-ouia-component-id="OUIA-Generated-Card-5"
+                  data-ouia-component-type="PF6/Card"
+                  data-ouia-safe="true"
+                  id=""
+                >
+                  <div
+                    class="pf-v6-c-card__header"
+                  >
+                    <div
+                      class="pf-v6-c-card__header-main"
+                    >
+                      <div
+                        class="pf-v6-c-card__title"
+                      >
+                        <div
+                          class="pf-v6-c-card__title-text"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="pf-v6-svg"
+                            fill="currentColor"
+                            height="1em"
+                            role="img"
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                          >
+                            <path
+                              d="M960,817.25 L768,913.25 L768,776.45 L848,736.45 L848,784.403 L880,768.403 L880,720.45 L960,680.45 L960,817.25 Z M584.3,613.05 L658.713,575.54 C659.183,575.839 659.67,576.119 660.18,576.373 L842.466,667.617 L768,704.85 L584.3,613.05 Z M512,368.45 L592,328.45 L592,375.639 L624,359.639 L624,312.45 L704,272.45 L704,409.35 L512,505.35 L512,368.45 Z M328.3,205.05 L403.195,167.297 C403.381,167.399 403.557,167.513 403.748,167.609 L586.689,259.181 L512,296.85 L328.3,205.05 Z M448,817.25 L256,913.25 L256,776.45 L336,736.45 L336,784.403 L368,768.403 L368,720.45 L448,680.45 L448,817.25 Z M72.3,613.05 L146.179,575.809 C146.507,576.003 146.833,576.2 147.18,576.373 L329.965,667.867 L256,704.85 L72.3,613.05 Z M256,520.45 L440.4,612.65 L365.753,649.974 L181.738,557.884 L256,520.45 Z M512,112.45 L696.4,203.85 L622.322,241.21 L438.782,149.358 L512,112.45 Z M768,520.45 L953.2,612.25 L878.253,649.724 L694.236,557.633 L768,520.45 Z M987.596,558.282 L767.297,447.983 L767.297,207.804 C767.297,183.626 753.609,161.446 731.93,150.656 L540.105,54.744 C522.122,45.752 500.941,45.752 482.958,54.744 L291.133,150.656 C269.453,161.446 255.766,183.626 255.766,207.804 L255.766,447.983 L35.368,558.282 C13.688,569.072 0,591.252 0,615.431 L0,816.146 C0,840.324 13.688,862.504 35.368,873.294 L227.192,969.206 C236.184,973.702 245.975,976 255.766,976 C265.557,976 275.348,973.702 284.339,969.206 L511.531,855.61 L738.724,969.206 C747.715,973.702 757.506,976 767.297,976 C777.088,976 786.879,973.802 795.871,969.306 L987.795,873.394 C1009.375,862.504 1024,840.424 1024,816.246 L1024,615.431 C1024,591.252 1009.275,569.072 987.596,558.282 L987.596,558.282 Z"
+                            />
+                          </svg>
+                           Troubleshoot
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pf-v6-c-card__body"
+                  >
+                    <div
+                      class="pf-v6-l-stack pf-m-gutter"
+                    >
+                      <div
+                        class="pf-v6-l-stack__item"
+                      >
+                        <div
+                          class="pf-v6-c-action-list pf-m-icons"
+                        >
+                          <div
+                            class="pf-v6-c-action-list__group"
+                          >
+                            <div
+                              class="pf-v6-c-action-list__item"
+                            >
+                              <button
+                                class="pf-v6-c-button pf-m-secondary pf-m-small"
+                                data-ouia-component-id="OUIA-Generated-Button-secondary-1"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                disabled=""
+                                type="button"
+                              >
+                                <span
+                                  class="pf-v6-c-button__icon pf-m-start"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="pf-v6-svg"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    viewBox="0 0 512 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  Live log tail
+                                </span>
+                              </button>
+                            </div>
+                            <div
+                              class="pf-v6-c-action-list__item"
+                            >
+                              <a
+                                class="pf-v6-c-button pf-m-secondary pf-m-small"
+                                data-ouia-component-id="OUIA-Generated-Button-secondary-2"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                href="#"
+                              >
+                                <span
+                                  class="pf-v6-c-button__icon pf-m-start"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="pf-v6-svg"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    viewBox="0 0 1088 1024"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M877.8,0 C797.1,0 731.5,65.6 731.5,146.3 C731.5,175.1 739.7,201.8 754.1,224.5 L670,310.5 C626.5,276.4 571.7,256 512,256 C477.8,256 445.1,262.7 415.3,274.9 L388.6,239.6 C375.1,221.3 350.9,216.1 334.9,228.2 C318.7,240.1 316.4,264.8 329.6,283.1 L351.9,312.3 C293.4,359.2 256,431.2 256,512 C256,534.7 259,556.7 264.5,577.7 L239,590.9 C219.8,600.3 210.7,622.9 218.4,641.2 C226.1,659.5 248.3,666.8 267.3,657.7 L292.9,644.4 C329.1,704.2 389.1,748 459.8,762.6 L453.8,835.6 C413.5,847.1 384,884.1 384,928 C384,981 427,1024 480,1024 C533,1024 576,981 576,928 C576,888.3 551.9,854.3 517.6,839.7 L523.5,767.8 C605.3,764.2 677.2,722.1 721.4,659.2 L789.8,705.8 C808.1,718.4 832.1,714.9 842.8,698 C853.5,680.9 847.3,656.9 828.8,644.6 L754.6,594.1 C763.3,568.3 768,540.7 768,512 C768,456.6 750.4,405.3 720.5,363.5 L807.4,274.8 C828.2,286.2 852.2,292.9 877.8,292.9 C958.5,292.9 1024.1,227.3 1024.1,146.6 C1024.1,65.9 958.5,0 877.8,0 Z M528,928 C528,954.5 506.5,976 480,976 C453.5,976 432,954.5 432,928 C432,901.5 453.5,880 480,880 C506.5,880 528,901.5 528,928 Z M512,640 C441.3,640 384,582.7 384,512 C384,441.3 441.3,384 512,384 C582.7,384 640,441.3 640,512 C640,582.7 582.8,640 512,640 Z M877.8,224 C834.8,224 800.1,189.3 800.1,146.3 C800.1,103.3 834.8,68.6 877.8,68.6 C920.8,68.6 955.5,103.3 955.5,146.3 C955.5,189.3 920.8,224 877.8,224 Z M900.8,712.3 C943.6,669.5 1013.1,669.5 1055.9,712.3 C1077.3,733.7 1088,761.8 1088,789.9 C1088,818 1077.3,846 1055.9,867.5 C1013.1,910.3 943.6,910.3 900.8,867.5 C858,824.6 858,755.2 900.8,712.3 M256,2.3 C316.6,2.3 365.7,51.4 365.7,112 C365.7,172.6 316.6,221.7 256,221.7 C195.4,221.7 146.3,172.6 146.3,112 C146.3,51.4 195.4,2.3 256,2.3 M96,608 C149,608 192,651 192,704 C192,757 149,800 96,800 C43,800 0,757 0,704 C0,651 43,608 96,608"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  Resource topology
+                                </span>
+                              </a>
+                            </div>
+                            <div
+                              class="pf-v6-c-action-list__item"
+                            >
+                              <a
+                                class="pf-v6-c-button pf-m-secondary pf-m-small"
+                                data-ouia-component-id="OUIA-Generated-Button-secondary-3"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                href="#"
+                              >
+                                <span
+                                  class="pf-v6-c-button__icon pf-m-start"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="pf-v6-svg"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    viewBox="0 0 512 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M504 255.531c.253 136.64-111.18 248.372-247.82 248.468-59.015.042-113.223-20.53-155.822-54.911-11.077-8.94-11.905-25.541-1.839-35.607l11.267-11.267c8.609-8.609 22.353-9.551 31.891-1.984C173.062 425.135 212.781 440 256 440c101.705 0 184-82.311 184-184 0-101.705-82.311-184-184-184-48.814 0-93.149 18.969-126.068 49.932l50.754 50.754c10.08 10.08 2.941 27.314-11.313 27.314H24c-8.837 0-16-7.163-16-16V38.627c0-14.254 17.234-21.393 27.314-11.314l49.372 49.372C129.209 34.136 189.552 8 256 8c136.81 0 247.747 110.78 248 247.531zm-180.912 78.784l9.823-12.63c8.138-10.463 6.253-25.542-4.21-33.679L288 256.349V152c0-13.255-10.745-24-24-24h-16c-13.255 0-24 10.745-24 24v135.651l65.409 50.874c10.463 8.137 25.541 6.253 33.679-4.21z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  Recent changes
+                                </span>
+                              </a>
+                            </div>
+                            <div
+                              class="pf-v6-c-action-list__item"
+                            >
+                              <a
+                                class="pf-v6-c-button pf-m-link pf-m-small"
+                                data-ouia-component-id="OUIA-Generated-Button-link-9"
+                                data-ouia-component-type="PF6/Button"
+                                data-ouia-safe="true"
+                                href="#"
+                              >
+                                <span
+                                  class="pf-v6-c-button__icon pf-m-start"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="pf-v6-svg"
+                                    fill="currentColor"
+                                    height="1em"
+                                    role="img"
+                                    viewBox="0 0 512 512"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  class="pf-v6-c-button__text"
+                                >
+                                  Open support case
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</DocumentFragment>
+`;

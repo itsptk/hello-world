@@ -1,0 +1,75 @@
+---
+description: Guidelines for creating low-fidelity prototypes with PatternFly
+globs: "**/*.{js,jsx,ts,tsx,html}"
+alwaysApply: false
+---
+# Low-Fidelity Prototype Rule
+
+## Purpose
+This rule defines how to create low-fidelity prototypes that are intentionally less polished to focus on functionality and flow rather than visual design.
+
+## When to Apply
+Apply this rule when:
+- The user explicitly requests a "low-fidelity" or "lo-fi" prototype
+- The user wants to focus on functionality over aesthetics
+- Creating rapid prototypes for testing concepts
+- Building mockups for user feedback sessions
+
+## Implementation
+
+### Body Class Modification
+When creating a low-fidelity prototype, add the `fidelity-low` class to the body element:
+
+```html
+<body class="fidelity-low">
+```
+
+Or in React/JavaScript:
+```javascript
+document.body.classList.add('fidelity-low');
+```
+
+### Current Low-Fidelity Effects
+The `.fidelity-low` class currently applies:
+- **Comic Sans MS font** - Makes the prototype feel less finished
+- **Grayscale filter** - Removes color to focus on layout and functionality
+
+### Best Practices
+1. **Ask before applying** - Confirm with the user if they want low-fidelity mode
+2. **Maintain functionality** - Low-fidelity is visual only; all features should work
+3. **Keep accessibility** - Don't sacrifice accessibility for lo-fi aesthetics
+4. **Document the mode** - Make it clear in comments when lo-fi mode is active
+5. **Easy removal** - Ensure the class can be easily removed to switch to high-fidelity
+
+## Future Extensions
+This rule will be expanded to include:
+- Additional low-fidelity styling options
+- Toggle mechanisms for switching between modes
+- Different levels of fidelity (ultra-low, low, medium)
+- Wireframe-style visual treatments
+
+## Example Usage
+
+### Initial Prompt Recognition
+When a user says:
+- "Create a low-fidelity dashboard"
+- "Build a lo-fi prototype for testing"
+- "Make this look less polished"
+
+### Response Pattern
+```typescript
+// Add low-fidelity class to body
+useEffect(() => {
+  document.body.classList.add('fidelity-low');
+  
+  // Cleanup on unmount
+  return () => {
+    document.body.classList.remove('fidelity-low');
+  };
+}, []);
+```
+
+## Related Rules
+- Follows all [PatternFly Vibe Coding](./patternfly-vibe-coding.mdc) standards
+- References [Styling Standards](../ai-documentation/guidelines/styling-standards.md)
+- Maintains [Component Architecture](../ai-documentation/guidelines/component-architecture.md) principles
